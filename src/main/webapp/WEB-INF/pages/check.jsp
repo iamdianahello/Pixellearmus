@@ -12,8 +12,8 @@
     <title>Title</title>
 </head>
 <body>
-    <spring:form modelAttribute="userFromServer" method="post" action="/pixellearmus/begin/check">
-        <spring:input path="name"/>
+    <spring:form modelAttribute="userFromServer" method="get" action="/begin/check">
+        <spring:input path="login"/>
         <spring:input path="password"/>
         <spring:button>check user</spring:button>
     </spring:form>
@@ -21,4 +21,4 @@
 </html>
 
 
- <button type="button" style=<%=abc%>> Click Me!</button>
+
